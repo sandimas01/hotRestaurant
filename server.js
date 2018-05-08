@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 
 // ROUTER
 require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+// require("./routes/htmlRoutes")(app);
 
 // LISTENER
 
