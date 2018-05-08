@@ -25,7 +25,7 @@ var patrons = [
 // Basic route that sends the user first to the AJAX Page
 app.get("/", function(req, res) {
   res.send("Welcome to Hot Restaurant!")
-  res.sendFile(path.join(__dirname, "index.html"));
+  res.sendFile(path.join(__dirname, "home.html"));
 });
 // Displays all patrons
 app.get("/api/patrons", function(req, res) {
