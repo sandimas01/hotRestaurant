@@ -1,5 +1,5 @@
-var tableData = require("../data/tableData");
-var waitListData = require("../data/waitinglistData");
+var tableData = require("../data/tableDate");
+var waitListData = require("../data/waitinglist");
 
 // ROUTING
 module.exports = function(app) {
